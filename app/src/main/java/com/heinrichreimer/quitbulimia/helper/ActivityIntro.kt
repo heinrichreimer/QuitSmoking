@@ -1,10 +1,10 @@
-package de.baumann.quitsmoking.helper
+package com.heinrichreimer.quitbulimia.helper
 
 import android.os.Bundle
 import androidx.preference.PreferenceManager
 import com.chyrta.onboarder.OnboarderActivity
 import com.chyrta.onboarder.OnboarderPage
-import de.baumann.quitsmoking.R
+import com.heinrichreimer.quitbulimia.R
 import java.util.*
 
 class ActivityIntro : OnboarderActivity() {

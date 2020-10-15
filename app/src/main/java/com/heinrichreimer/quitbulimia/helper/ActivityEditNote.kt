@@ -1,10 +1,9 @@
-package de.baumann.quitsmoking.helper
+package com.heinrichreimer.quitbulimia.helper
 
 import android.app.AlertDialog
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.os.Environment
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
@@ -16,10 +15,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.preference.PreferenceManager
 import com.google.android.material.snackbar.Snackbar
+import com.heinrichreimer.quitbulimia.R
 import com.mlsdev.rximagepicker.RxImageConverters
 import com.mlsdev.rximagepicker.RxImagePicker
 import com.mlsdev.rximagepicker.Sources
-import de.baumann.quitsmoking.R
 import org.apache.commons.io.FilenameUtils
 import java.io.File
 import java.text.SimpleDateFormat

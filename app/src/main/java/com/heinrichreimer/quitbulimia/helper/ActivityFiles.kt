@@ -16,7 +16,7 @@
 
     If not, see <http://www.gnu.org/licenses/>.
  */
-package de.baumann.quitsmoking.helper
+package com.heinrichreimer.quitbulimia.helper
 
 import android.Manifest
 import android.content.ContentValues
@@ -25,7 +25,6 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.database.Cursor
 import android.os.Bundle
-import android.os.Environment
 import android.os.Handler
 
 import android.util.Log
@@ -43,7 +42,7 @@ import androidx.preference.PreferenceManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.material.snackbar.Snackbar
-import de.baumann.quitsmoking.R
+import com.heinrichreimer.quitbulimia.R
 import java.io.File
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat

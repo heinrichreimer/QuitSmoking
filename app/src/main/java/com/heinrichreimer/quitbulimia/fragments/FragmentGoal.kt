@@ -1,9 +1,8 @@
-package de.baumann.quitsmoking.fragments
+package com.heinrichreimer.quitbulimia.fragments
 
 import android.app.AlertDialog
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.os.Environment
 import android.view.*
 import android.widget.ImageView
 import android.widget.ProgressBar
@@ -12,11 +11,11 @@ import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceManager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.heinrichreimer.quitbulimia.R
 import com.mlsdev.rximagepicker.RxImageConverters
 import com.mlsdev.rximagepicker.RxImagePicker
 import com.mlsdev.rximagepicker.Sources
-import de.baumann.quitsmoking.R
-import de.baumann.quitsmoking.helper.HelperMain
+import com.heinrichreimer.quitbulimia.helper.HelperMain
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*

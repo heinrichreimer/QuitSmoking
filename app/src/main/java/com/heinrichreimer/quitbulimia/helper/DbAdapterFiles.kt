@@ -16,7 +16,7 @@
 
     If not, see <http://www.gnu.org/licenses/>.
  */
-package de.baumann.quitsmoking.helper
+package com.heinrichreimer.quitbulimia.helper
 
 import android.annotation.SuppressLint
 import android.content.Context

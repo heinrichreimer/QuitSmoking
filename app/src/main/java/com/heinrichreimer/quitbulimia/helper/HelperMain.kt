@@ -16,7 +16,7 @@
 
     If not, see <http://www.gnu.org/licenses/>.
  */
-package de.baumann.quitsmoking.helper
+package com.heinrichreimer.quitbulimia.helper
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -34,7 +34,7 @@ import android.widget.EditText
 import androidx.core.content.FileProvider
 import androidx.preference.PreferenceManager
 import com.google.android.material.snackbar.Snackbar
-import de.baumann.quitsmoking.R
+import com.heinrichreimer.quitbulimia.R
 import java.io.File
 import java.text.DateFormat
 import java.text.SimpleDateFormat

@@ -1,4 +1,4 @@
-package de.baumann.quitsmoking.helper
+package com.heinrichreimer.quitbulimia.helper
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,7 +7,7 @@ import android.database.SQLException
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import androidx.preference.PreferenceManager
-import de.baumann.quitsmoking.R
+import com.heinrichreimer.quitbulimia.R
 
 class DbAdapterNotes(//establish connection with SQLiteDataBase
         private val c: Context) {

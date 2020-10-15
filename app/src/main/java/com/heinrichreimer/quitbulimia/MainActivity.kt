@@ -1,4 +1,4 @@
-package de.baumann.quitsmoking
+package com.heinrichreimer.quitbulimia
 
 import android.Manifest
 import android.app.AlertDialog
@@ -16,11 +16,11 @@ import androidx.fragment.app.FragmentPagerAdapter
 import androidx.preference.PreferenceManager
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
-import de.baumann.quitsmoking.fragments.FragmentGoal
-import de.baumann.quitsmoking.fragments.FragmentHealth
-import de.baumann.quitsmoking.fragments.FragmentNotes
-import de.baumann.quitsmoking.fragments.FragmentOverview
-import de.baumann.quitsmoking.helper.HelperMain.textSpannable
+import com.heinrichreimer.quitbulimia.fragments.FragmentGoal
+import com.heinrichreimer.quitbulimia.fragments.FragmentHealth
+import com.heinrichreimer.quitbulimia.fragments.FragmentNotes
+import com.heinrichreimer.quitbulimia.fragments.FragmentOverview
+import com.heinrichreimer.quitbulimia.helper.HelperMain.textSpannable
 import java.io.File
 import java.util.*
 

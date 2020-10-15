@@ -1,4 +1,4 @@
-package de.baumann.quitsmoking.fragments
+package com.heinrichreimer.quitbulimia.fragments
 
 import android.app.AlertDialog
 import android.content.SharedPreferences
@@ -13,7 +13,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceManager
-import de.baumann.quitsmoking.R
+import com.heinrichreimer.quitbulimia.R
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.math.floor

@@ -1,4 +1,4 @@
-package de.baumann.quitsmoking
+package com.heinrichreimer.quitbulimia
 
 import android.app.Activity
 import android.app.AlertDialog
@@ -17,9 +17,9 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog
 import com.wdullaer.materialdatetimepicker.time.TimePickerDialog
-import de.baumann.quitsmoking.about.AboutActivity
-import de.baumann.quitsmoking.helper.ActivityIntro
-import de.baumann.quitsmoking.helper.HelperMain.showKeyboard
+import com.heinrichreimer.quitbulimia.about.AboutActivity
+import com.heinrichreimer.quitbulimia.helper.ActivityIntro
+import com.heinrichreimer.quitbulimia.helper.HelperMain.showKeyboard
 import java.util.*
 
 class UserSettingsActivity : AppCompatActivity() {

@@ -16,7 +16,7 @@
 
     If not, see <http://www.gnu.org/licenses/>.
  */
-package de.baumann.quitsmoking.fragments
+package com.heinrichreimer.quitbulimia.fragments
 
 import android.app.AlertDialog
 import android.content.Context
@@ -44,10 +44,10 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
-import de.baumann.quitsmoking.R
-import de.baumann.quitsmoking.helper.ActivityEditNote
-import de.baumann.quitsmoking.helper.DbAdapterNotes
-import de.baumann.quitsmoking.helper.HelperMain
+import com.heinrichreimer.quitbulimia.R
+import com.heinrichreimer.quitbulimia.helper.ActivityEditNote
+import com.heinrichreimer.quitbulimia.helper.DbAdapterNotes
+import com.heinrichreimer.quitbulimia.helper.HelperMain
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

@@ -1,4 +1,4 @@
-package de.baumann.quitsmoking.about
+package com.heinrichreimer.quitbulimia.about
 
 import android.app.AlertDialog
 import android.content.Context
@@ -18,8 +18,8 @@ import com.danielstone.materialaboutlibrary.items.MaterialAboutActionItem
 import com.danielstone.materialaboutlibrary.items.MaterialAboutTitleItem
 import com.danielstone.materialaboutlibrary.model.MaterialAboutCard
 import com.danielstone.materialaboutlibrary.model.MaterialAboutList
-import de.baumann.quitsmoking.R
-import de.baumann.quitsmoking.helper.ActivityIntro
+import com.heinrichreimer.quitbulimia.R
+import com.heinrichreimer.quitbulimia.helper.ActivityIntro
 
 internal object AboutContent {
     @JvmStatic
