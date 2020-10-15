@@ -1,17 +1,17 @@
-🥗 Quit bulimia, monitor your health, write a diary.
+_Note: This project is currently in early development and not ready to use._
 
-# Quit Smoking
-A small android application to help smokers to quit smoking. Features:
+# 🥗 android-quit-bulimia
 
-- Overview: statistics about when stopped smoking, days not smoked and saved cigarettes, money and time
-- Health: progress of benefits when you quit smoking (breathing, cancer, ...)
-- Diary: here you can write whatever you want. Can be backed up on sdcard.
+Quit bulimia, monitor your health, write a diary.
 
-### Permissions:
-"android.permission.WRITE_EXTERNAL_STORAGE" to backup diary on sdcard.
+## Features
 
-### Links:
-- Download [Releases](https://github.com/scoute-dich/QuitSmoking/releases)
-- Watch [Changelog](https://github.com/scoute-dich/QuitSmoking/blob/master/CHANGELOG.md)
-- See [license](https://github.com/scoute-dich/QuitSmoking/blob/master/LICENSE.md)
-- Watch [screenshots](https://github.com/scoute-dich/QuitSmoking/blob/master/SCREENSHOTS.md)
+- Overview: statistics about how long you did not binge eat or purge and saved money
+- Health: progress of benefits and body function since when you quit
+- Diary: write whatever you want, track your mood
+
+## Permissions
+The external storage permission is needed for backup/restore on your SD card.
+
+## Screenshots
+You can view screenshots of the app [here](SCREENSHOTS.md).
