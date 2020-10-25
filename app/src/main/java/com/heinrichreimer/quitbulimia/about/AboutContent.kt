@@ -112,6 +112,7 @@ internal object AboutContent {
         authorCardBuilder2.addItem(MaterialAboutActionItem.Builder()
                 .text("igi0")
                 .subText(R.string.about_title_ext6)
+                .icon(R.drawable.github_circle)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://gitlab.com/igi0")))
                 .build())
         val convenienceCardBuilder = MaterialAboutCard.Builder()

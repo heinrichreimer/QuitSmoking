@@ -118,7 +118,7 @@ class ActivityFiles : AppCompatActivity() {
 
     private fun setFilesList() {
         deleteDatabase("files_DB_v01.db")
-        val f = File(sharedPref!!.getString("files_startFolder",
+        val f = File(sharedPref.getString("files_startFolder",
                 getExternalFilesDir(null)?.path))
         val files = f.listFiles()
 

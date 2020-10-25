@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
             overridePendingTransition(0, 0)
             finish()
         }
-        val haswriteExternalStorage = checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-        if (haswriteExternalStorage != PackageManager.PERMISSION_GRANTED) {
+        val hasExternalStorageWritePermissions = checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+        if (hasExternalStorageWritePermissions != PackageManager.PERMISSION_GRANTED) {
             if (!shouldShowRequestPermissionRationale(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
                 AlertDialog.Builder(this@MainActivity)
                         .setTitle(R.string.app_permissions_title)
