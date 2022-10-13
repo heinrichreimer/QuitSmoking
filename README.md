@@ -1,6 +1,6 @@
 _Note: This project is currently in early development and not ready to use._
 
-# 🥗 android-quit-bulimia
+# 🥗 quit-bulimia
 
 Quit bulimia, monitor your health, write a diary.
 
